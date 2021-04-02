@@ -7,3 +7,9 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+
+def func(name):
+    return "am" in name
+
+result = list(filter(func, names))
+print(result)

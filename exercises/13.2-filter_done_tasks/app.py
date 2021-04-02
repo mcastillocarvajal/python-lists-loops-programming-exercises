@@ -13,3 +13,10 @@ tasks = [
 
 #Your code go here:
 
+def func(list):
+    return list["done"] == True
+
+result = list(filter(func, tasks))
+print(result)
+        
+

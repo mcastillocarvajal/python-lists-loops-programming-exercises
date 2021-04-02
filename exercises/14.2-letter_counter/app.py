@@ -2,6 +2,13 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 #your code go here:
+lower = par.lower()
+for letter in lower:
+    if letter != " ":
+        if letter in counts:
+            counts[letter] += 1
+        else:
+            counts[letter] = 1
 
 print(counts)
 

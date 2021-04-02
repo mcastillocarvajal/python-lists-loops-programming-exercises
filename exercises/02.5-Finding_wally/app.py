@@ -2,3 +2,8 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
+for i in range(len(people)):
+    name = people[i]
+    if (name.lower() == "wally"):
+        print(i)
+

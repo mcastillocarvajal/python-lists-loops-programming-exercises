@@ -3,6 +3,10 @@ all_names = ["Romario","Boby","Roosevelt","Emiliy", "Michael", "Greta", "Patrici
 
 #Your code go here:
 
+def func(name):
+    return name[0] == "R"
+
+resulting_names = list(filter(func,all_names ))
 print(resulting_names)
 
 
